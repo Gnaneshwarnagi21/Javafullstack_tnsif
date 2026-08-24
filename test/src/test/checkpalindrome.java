@@ -1,0 +1,22 @@
+package test;
+
+public class checkpalindrome {
+	 void check(){
+         int num =12321;
+         int original=num;
+         int rev=0;
+         while( num !=0){
+                  int digit = num%10;
+                  rev = rev*10 +digit;
+                 num=num/10;
+                             }
+            if(original == rev){
+                           System.out.println(original + "is a palindrome");
+                            }
+             else{
+                     System.out.println(original+ "is not palindrome");
+                   }
+}
+
+
+}
